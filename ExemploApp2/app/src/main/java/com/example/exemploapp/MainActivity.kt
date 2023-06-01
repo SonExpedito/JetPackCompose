@@ -37,8 +37,8 @@ class MainActivity : ComponentActivity() {
         setContent {
                 ExemploAppTheme{
                   Surface(modifier = Modifier.fillMaxSize()) {
-                      MessageCard(Message("Android", "Jetpack Compose"))
-                        }
+                      Conversation(SampleData.conversationSample)
+                  }
                 }
           }
 
